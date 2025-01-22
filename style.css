@@ -97,6 +97,11 @@
   
 }
 
+.tag-marquee{
+  font-size: 30px;
+  color: chocolate;
+}
+
 /*banner  ........................... style */
  .banner-style{
   display: flex;
