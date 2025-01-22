@@ -2,75 +2,99 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 .quicksand-font{
-    font-family: "Quicksand", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-  }
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 
   /* navbar add style*/
+   
   .display-flex{
     display: flex;
   }
-  .navbar{
-   justify-content: space-between;
-   justify-content: center;
-   width: 1440px;
-   height: 102px;
-    
+  .header{
+    justify-content: space-between;
+    width: 1440;
+    height: 102px;
+
   }
   .nav-logo{
+    position: absolute;
+    left: 250px;
+    margin-top: 8px;
    
-    padding: 20px 0px 20px 0px;
   }
-  .nav-brand{
-  
-    letter-spacing: 0px;
+  .nav-text{
+    position: absolute;
     font-size: 32px;
-    gap: 186px;
-    
-  }
-  
-  .navbar-link{
-    width: 387px;
-    height: 30px;
-    gap: 32px;
-    font-size: 32px;
-    
-    
+    font-weight: 700;
+    line-height: 30px;
+    margin-top: 30px;
+    left: 330px;
+   
   }
   .nav-item{
     list-style: none;
-   margin-left: 20px;
-   align-items: center;
-   color: blue;
-   
-   
+    margin-right: 30px;
+  }
+
+  .navbar-link{
+    position: static;
+    width: 600px;
+    height: 40px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32px;
+    padding: 0px;
+    margin-right: 300px;
     
   }
-  .nav-item1{
-   
-    color: blueviolet;
+  .div-text1{
+    color: rgb(254, 163, 1);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-top: 30px;
   }
-  .nav-item2{
-    
-    
-    
+  .div-text2{
+    color: rgb(1, 172, 253);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-top: 30px;
   }
-  .nav-item3{
-   
+  .div-text3{
+    color: rgb(5, 212, 223);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-top:30px ;
   }
-   .nav-item4{
-    
-    
+  .div-text4{
+    color: rgb(93, 88, 239);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-right: 20px;
+
   }
-  .btn-primray{
-    background-color: rgb(254, 163, 1);
-    border-radius: 12px;
-    margin: 0px 186px;
-    width: 186px;
-    height: 50px;
-    border-style: none;
-    color: aliceblue;
-    font-size: 20px;
-  }
+  
+.btn-primray{
+ justify-content: center;
+ align-items: center;
+ gap: 10px;
+ padding: 10px;
+ border-radius: 12px;
+ background-color: rgb(254, 163, 1);
+ font-size: 20px;
+ font-weight: 600;
+ line-height: 30px;
+ color: rgb(255,255,255);
+ margin-top: 20px;
+ border-style: none;
+  
+}
+
+
